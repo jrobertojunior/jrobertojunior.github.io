@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Ikapp</title>
     <meta name="description" content="Nós usamos tecnologia para acompanhar seu desenvolvimento motor.">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=348061b0bb42ec50f40be57ab79c5396">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=eeba1d2329a751cb3a0f397b5bee7ef9">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=18313f04cea0e078412a028c5361bd4e">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css?h=c942239c91f94a6b90d67fb2496c21bf">
+    <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css?h=6f68bf61a416434849fd9205b253f152">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css?h=4ae15b76681e1b1288bcefd94a110111">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css?h=4ae15b76681e1b1288bcefd94a110111">
 </head>
 
 <body id="page-top">
@@ -24,6 +28,7 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#features">como funciona</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#download">baixar</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#pricing">Planos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
                 </ul>
         </div>
@@ -54,7 +59,7 @@
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Segurança, motivação e diversão!</h2>
-                <p class="text-muted">Dá uma olhada no que o IKapp consegue fazer!</p>
+                <p class="text-muted">Dá uma olhada no que o IKapp comsegue fazer!</p>
                 <hr>
             </div>
             <div class="row">
@@ -111,12 +116,12 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="pricing">
         <div class="container">
             <div class="card-deck mb-3 text-center my-3">
                 <div class="col-lg-4">
                     <div class="card mb-4 box-shadow">
-                        <h4 class="my-3 font-weight-normal">Free</h4>
+                        <h4 class="my-3 font-weight-normal">Gratuiro</h4>
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title">R$ 0 /<small class="text-muted">&nbsp;MO</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
@@ -124,7 +129,7 @@
                                 <li>Acompanhamento</li>
                                 <li>Correção</li>
                                 <li>Suporte</li>
-                            </ul><button class="btn btn-secondary btn btn-lg btn-block" type="button"><strong>Comece agora</strong></button></div>
+                            </ul><button class="btn btn-secondary btn btn-lg btn-block js-scroll-trigger" type="button" href="#contact"><strong>Fale Conosco</strong></button></div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -137,7 +142,7 @@
                                 <li>Acompanhamento</li>
                                 <li>Correção por voz</li>
                                 <li>Suporte</li>
-                            </ul><button class="btn btn-primary btn btn-lg btn-block" type="button"><strong>comece agora</strong></button></div>
+                            </ul><button class="btn btn-primary btn btn-lg btn-block" type="button"><strong>Fale conosco</strong></button></div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -156,16 +161,16 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="contact bg-primary">
-        <div class="container">
-            <h2><span>Nós&nbsp;</span><i class="fa fa-heart"></i><span>&nbsp;novos amigos!</span></h2>
-            <ul class="list-inline list-social">
-                <li class="list-inline-item social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li class="list-inline-item social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li class="list-inline-item social-google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
-        </div>
-    </section>
+    <div id="contact" class="contact-clean"><form
+  action="https://formspree.io/jrobertofonsecajr@gmail.com"
+  method="POST"
+>
+    <h2 class="text-center">Fale conosco</h2>
+    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nome" /></div>
+    <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" /></div>
+    <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+    <div class="form-group"><button class="btn btn-primary" type="submit">enviar</button></div>
+</form></div>
     <footer>
         <div class="container">
             <p>©&nbsp;Ikapp 2020. All Rights Reserved.</p>
@@ -178,6 +183,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js?h=2c64cd62c63f6bd612870de6e412fa6f"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/new-age.js?h=cf0c6eede7253521bdfea6a9a949db9a"></script>
 </body>
